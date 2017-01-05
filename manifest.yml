@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 1536M
+  instances: 1
+  domain: mybluemix.net
+  name: ibmiotenerjisa
+  host: ibmiotenerjisa
+  disk_quota: 1024M
+  services:
+  - ibmiotenerjisa-cloudantNoSQLDB
+  - ibmiotenerjisa-iotf-service
